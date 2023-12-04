@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "Name": {
+              "type": "string"
+            },
+            "Age": {
+              "type": "integer"
+            },
+            "Phone": {
+              "type": "string"
+            },
+            "Address": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Name",
+            "Age",
+            "Phone",
+            "Address"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Name": {
+              "type": "string"
+            },
+            "Age": {
+              "type": "integer"
+            },
+            "Phone": {
+              "type": "string"
+            },
+            "Address": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Name",
+            "Age",
+            "Phone",
+            "Address"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Name": {
+              "type": "string"
+            },
+            "Age": {
+              "type": "integer"
+            },
+            "Phone": {
+              "type": "string"
+            },
+            "Address": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Name",
+            "Age",
+            "Phone",
+            "Address"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}
